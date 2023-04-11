@@ -8,7 +8,7 @@ app.use(cors());
 
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 // var ObjectId = require("mongodb").ObjectID;
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.xkom1i8.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.n3cxt.mongodb.net/?retryWrites=true&w=majority`
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
